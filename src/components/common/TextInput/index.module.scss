@@ -1,0 +1,25 @@
+@import '$assets/scss/main.scss';
+
+.textInputContainer {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid $border-gray;
+  margin: 8px 0;
+  overflow: hidden;
+}
+
+.textInputIcon {
+  padding: 0 1rem;
+  height: 20px;
+}
+
+.textInputWrapper {
+  background-color: transparent;
+  padding: 1px 20px;
+  width: 100%;
+  border: none;
+  &:focus {
+    outline: none;
+  }
+}

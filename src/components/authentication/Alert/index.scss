@@ -1,0 +1,15 @@
+@import '$assets/scss/main.scss';
+
+.auth-alert {
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  color: $white;
+  &.auth-alert-success {
+    background-color: $secondary-green;
+  }
+  &.auth-alert-danger {
+    background-color: $primary-red;
+  }
+}

@@ -1,0 +1,19 @@
+@import '$assets/scss/main.scss';
+
+.favoritesContentTop {
+  margin-top: 4rem;
+}
+
+.homeContent {
+  padding: 0 2.5rem 5rem;
+  p {
+    color: $white !important;
+  }
+}
+
+.homeHeading {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: $heading;
+  color: $secondary-green;
+}

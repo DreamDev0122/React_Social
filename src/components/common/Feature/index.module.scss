@@ -1,0 +1,67 @@
+@import '$assets/scss/main.scss';
+
+.featureWrapper {
+  position: relative;
+  min-height: 185px;
+  min-width: 300px;
+  max-width: 450px;
+  height: 100%;
+  margin-left: 1rem;
+  margin-bottom: 1rem; 
+  background-color: $dark-gray;
+}
+
+.featureContentWrapper {
+  height: 40%;
+  width: 100%;
+  bottom: 0;
+}
+
+.featureActionBtn {
+  height: 30px;
+}
+
+.featureSummary {
+  color: $white;
+  margin: 5px;
+}
+
+.featurePane {
+  position: absolute;
+  z-index: $z-index-lift;
+  bottom: 0;
+  align-items: flex-end;
+  padding: 0.5rem 1rem;
+}
+
+.featurePlayBtn {
+  background-color: transparent;
+  border: none;
+  &:focus {
+    outline: 0;
+  }
+}
+
+.featureHeaderWrapper {
+  position: absolute;
+  width: 100%;
+}
+
+.featureHeaderWrapperTitle {
+  background-color: $secondary-black;
+  color: $white;
+}
+
+.defaultFeatureAvatar{
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.menuIcon {
+  width: 15px;
+}
+
+.subtitle {
+  font-size: 12px;
+}

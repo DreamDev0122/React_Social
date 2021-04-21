@@ -1,0 +1,17 @@
+@import '$assets/scss/main.scss';
+
+.btnCancel {
+  color: $pink;
+}
+
+.newArtistWrapper {
+  position: relative;
+  background-color: $white;
+  height: 100%;
+  margin-top: 3rem;
+  padding: 2rem;
+}
+
+.newItemFooter {
+  margin-bottom: 5rem;
+}

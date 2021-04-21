@@ -1,0 +1,65 @@
+@import '$assets/scss/main.scss';
+
+.playerWrapper {
+  height: 60px;
+  background-color: $primary-blue;
+  padding: 5px 2rem;
+}
+
+.playerNameWrapper {
+  color: $white;
+}
+
+.playerAvatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+
+.playerBtn {
+  width: 30px;
+  background-color: transparent;
+  border: none;
+  &:focus {
+    outline: none;
+  }
+}
+
+.playerVolumeBtn {
+  height: 100%;
+  position: relative;
+  top: -5px;
+  img {
+    height: 15px;
+  }
+}
+
+.playerSliderWrapper {
+  flex-grow: 1;
+  height: 100%;
+  padding-top: 10px;
+}
+
+.playerVolumeWrapper {
+  width: 100px;
+  height: 100%;
+}
+
+.playerMenuWrapper {
+}
+
+.pauseBtnWrapper {
+  display: flex;
+  height: 20px;
+  width: 20px;
+  justify-content: center;
+  align-items: center;
+  background: $white;
+  border-radius: 10px;
+}
+
+.playerTime {
+  padding: 5px 10px;
+  color: $white;
+}
+

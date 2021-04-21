@@ -1,0 +1,13 @@
+@import '$assets/scss/main.scss';
+
+.info-panel {
+  background-color: $tertiary-blue;
+  color: $white;
+  height: 40px;
+  margin-top: 2.5rem !important;
+  margin-bottom: 2rem;
+}
+
+.info-panel-wrapper {
+  flex: 1;
+}

@@ -1,0 +1,27 @@
+@import '$assets/scss/main.scss';
+
+.dragIcon {
+  height: 15px;
+  width: 15px;
+}
+
+.settingsIcon {
+  height: 15px;
+  width: 15px;
+}
+
+.contentWrapper {
+  flex: 1;
+  padding: 0 2rem;
+}
+
+.deleteBtn {
+  background-color: $primary-red;
+  color: $white;
+  border: none;
+}
+
+.closeBtn {
+  margin: 0 10px;
+}
+

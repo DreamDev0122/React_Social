@@ -1,0 +1,23 @@
+@import '$assets/scss/main.scss';
+
+.newMediaWrapper {
+  position: relative;
+  background-color: $white;
+  height: 100%;
+  margin-top: 3rem;
+  padding: 2rem;
+}
+
+.newMediaCloseBtn {
+  height: 30px;
+  border: none;
+  background-color: transparent;
+  &:focus {
+    outline: none;
+  }
+}
+
+.cancelIcon {
+  height: 20px;
+  width: 20px;
+}

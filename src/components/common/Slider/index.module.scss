@@ -1,0 +1,34 @@
+@import '$assets/scss/main.scss';
+
+.progressBar {
+  position:relative;
+  background-color:#8C8C8C;
+  width: 100%;
+  height: 5px;
+  float: left;
+  overflow: visible; 
+  margin-top: -5px;
+  margin-left: 5px;
+	border-radius: 10px;
+  padding: 0; 
+}
+
+.knobMenu {
+  position: absolute;
+  text-align: center;
+  width: 5px;
+  height: 5px;
+	top: 0px;
+  z-index: 2;
+	border-radius: 50%;
+  background-color: transparent;
+}
+
+.rangeMenu {
+  position: relative;
+  background-color:#f1f1f1;
+  height: 5px; 
+	border-radius: 5px;
+  width: 0;
+}
+

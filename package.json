@@ -1,0 +1,60 @@
+{
+  "name": "mkondo",
+  "version": "1.0.0",
+  "description": "Webapp for music development app",
+  "author": "DreamDev0122",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "parcel serve index.html",
+    "build": "parcel build index.html --no-cache --no-scope-hoist"
+  },
+  "dependencies": {
+    "@reactchartjs/react-chart.js": "^1.0.0-rc.3",
+    "@reduxjs/toolkit": "^1.4.0",
+    "chart.js": "^2.9.4",
+    "gsap": "^3.5.1",
+    "howler": "^2.2.1",
+    "lodash.debounce": "^4.0.8",
+    "luxon": "^1.25.0",
+    "moment": "^2.29.1",
+    "query-string": "^6.13.7",
+    "react": "^16.8.3 || ^17",
+    "react-aria-menubutton": "^7.0.1",
+    "react-beautiful-dnd": "^13.0.0",
+    "react-content-loader": "^6.0.1",
+    "react-dom": ">= 16.8.0",
+    "react-error-boundary": "^3.1.0",
+    "react-ga": "^3.2.1",
+    "react-player": "^2.8.2",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-select": "^3.1.1",
+    "react-share": "^4.3.1",
+    "regenerator-runtime": "^0.13.7",
+    "screenfull": "^5.1.0",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "parcel": "^2.0.0-beta.1",
+    "postcss-modules": "^3.2.2",
+    "sass": "^1.29.0"
+  },
+  "alias": {
+    "$assets": "./src/assets",
+    "$common": "./src/common",
+    "$components": "./src/components",
+    "$containers": "./src/containers",
+    "$redux": "./src/redux"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkondoorg/webapp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mkondoorg/webapp/issues"
+  },
+  "homepage": "https://github.com/mkondoorg/webapp#readme"
+}

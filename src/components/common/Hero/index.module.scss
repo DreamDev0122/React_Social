@@ -1,0 +1,18 @@
+@import '$assets/scss/main.scss';
+
+.heroWrapper {
+  display: flex;
+  flex: 1;
+  height: 280px;
+}
+
+.heroHeading {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: $heading;
+  color: $primary-gray;
+}
+
+.heroSubHeading {
+  color: $secondary-gray;
+}

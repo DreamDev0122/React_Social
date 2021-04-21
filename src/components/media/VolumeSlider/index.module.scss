@@ -1,0 +1,24 @@
+@import '$assets/scss/main.scss';
+
+.playerBtn {
+  width: 30px;
+  background-color: transparent;
+  border: none;
+  &:focus {
+    outline: none;
+  }
+}
+
+.playerVolumeBtn {
+  height: 100%;
+  position: relative;
+  top: -5px;
+  img {
+    height: 15px;
+  }
+}
+
+.playerVolumeWrapper {
+  width: 100px;
+  height: 100%;
+}

@@ -1,0 +1,54 @@
+@import '$assets/scss/main.scss';
+
+.dropdownWrapperBtn {
+  background-color: transparent;
+  border: none;
+  &:focus {
+    outline: none;
+  }
+}
+
+.dropdownBubbleMenu {
+  margin-top: 1em;
+  text-align: left;
+  padding: 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: $white;
+  /*
+  &::before, &::after {
+    content: ' ';
+    border-style: solid;
+    border-width: 0 .5em .8em .5em;
+    border-color: transparent;
+    position: absolute;
+    right: 4em;
+  }
+  */
+  /*
+  &::after {
+    top: 3.5em;
+    border-bottom-color: $white;
+  }
+  */
+}
+
+.dropdownOption {
+  height: 40px;
+  font-family: Helvetica;
+  color: $black;
+  text-decoration: transparent;
+  &:focus, &:active, &:hover {
+    color: $black;
+  }
+}
+
+.dropdownElementMenu {
+  width: 50rem;
+}
+
+.content {
+  background-color: $white;
+  position: relative;
+  box-shadow: 0px 1px 3px $border-gray;
+}

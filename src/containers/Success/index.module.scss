@@ -1,0 +1,21 @@
+@import '$assets/scss/main.scss';
+
+.successWrapper {
+  min-height: 100vh;
+  width: 100%;
+  background-color: $white;
+  padding-top: 8rem;
+}
+
+.successDialogWrapper {
+  border: 1px solid $tertiary-gray;
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+.successMessage {
+  font-family: 'Helvetica Neue';
+  font-size: $title;
+  font-weight: bold;
+}
+

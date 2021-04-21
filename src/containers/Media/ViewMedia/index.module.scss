@@ -1,0 +1,16 @@
+@import '$assets/scss/main.scss';
+
+.container {
+  position: relative;
+  background-color: $primary-light-gray;
+  min-height: 100%;
+  margin-top: 4rem !important;
+  padding: 4rem 2rem 10rem 2rem;
+}
+
+.commentsWrapper {
+  flex: 1;
+}
+.descriptionWrapper {
+  padding: 2rem 0 1rem;
+}

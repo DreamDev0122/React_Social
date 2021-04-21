@@ -1,0 +1,23 @@
+@import '$assets/scss/main.scss';
+
+.modalContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: $z-index-last;
+  color: $tertiary-gray;
+  font-family: Poppins;
+  font-weight: 500;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 5rem;
+}
+
+.modalWrapper {
+  position: relative;
+  background-color: $white;
+  border-radius: 2px;
+  min-height: 5rem;
+  height: auto;
+}

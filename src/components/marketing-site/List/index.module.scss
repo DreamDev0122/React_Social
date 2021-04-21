@@ -1,0 +1,25 @@
+@import '$assets/scss/main.scss';
+
+.listNumWrapper {
+  color: $secondary-green;
+  font-size: $normal-text;
+  border: 1px solid $secondary-green;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 2rem;
+}
+
+.listHeader {
+  color: $secondary-green;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.listContentWrapper {
+  margin-right: 2rem;
+}
+
+.listDescription {
+  color: $white;
+}

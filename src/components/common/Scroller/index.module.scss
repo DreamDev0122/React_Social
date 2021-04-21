@@ -1,0 +1,29 @@
+@import '$assets/scss/main.scss';
+
+.container {
+  display: flex;
+  position: relative;
+  height: 300px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.collapsed {
+  height: 40px !important;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: scroll;
+}
+
+.titleWrapper {
+  flex: 1;
+}
+
+.heading {
+  font-size: $title;
+  color: $white;
+}

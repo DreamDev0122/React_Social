@@ -1,0 +1,46 @@
+@import '$assets/scss/main.scss';
+
+.genreSelectorContent {
+  margin-top: 80px !important;
+}
+
+.genreSelectorHeaderWrapper {
+  padding: 1rem 2rem;
+  width: 60%;
+}
+
+.genreSelectorHeader {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: $heading;
+  color: $white;
+}
+
+.genreSelectorMenus {
+  border-bottom: 4px solid $secondary-green;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.genreSelectorMenu {
+  height: 130px;
+  width: 130px;
+  background-color: $white;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  color: $secondary-gray;
+}
+
+.genreSelectorMenuActive {
+  background-color: $secondary-green;
+  color: $white;
+}
+
+.genreSelectorMenuImage {
+  height: 75px
+}
+
+.icon {
+  max-height: 50px;
+}
+

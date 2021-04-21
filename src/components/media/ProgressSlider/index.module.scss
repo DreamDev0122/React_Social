@@ -1,0 +1,11 @@
+@import '$assets/scss/main.scss';
+
+.playerDurationWrapper {
+  flex-grow: 1;
+  height: 100%;
+}
+
+.playerTime {
+  padding: 5px 10px;
+  color: $white;
+}

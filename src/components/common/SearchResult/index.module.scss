@@ -1,0 +1,46 @@
+@import '$assets/scss/main.scss';
+
+.searchResultItem {
+  border-bottom: 1px solid rgba(195, 195, 195, 0.3);
+  padding: 1rem 0;
+  width: 360px;
+  margin-bottom: 10px;
+  &.is-last {
+    border: none;
+  }
+}
+
+.searchResultImage {
+  height: 75px;
+  width: 75px;
+  margin-right: 15px;
+}
+
+.searchResultWrapper {
+  position: absolute;
+  margin-top: 50px;
+  width: calc(100vw - 220px);
+  z-index: $z-index-last;
+  background-color: $primary-green;
+  height: calc(100vh - 120px);
+  padding: 40px;
+  overflow: auto;
+  p {
+    color: $white;
+  }
+}
+
+.searchWrapperMobile {
+  width: 100%;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 16px;
+  color: $white;
+}
+
+.isNotActive {
+  background-color: $tertiary-gray;
+  border-color: $tertiary-gray;
+}

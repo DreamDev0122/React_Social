@@ -1,0 +1,82 @@
+@import '$assets/scss/main.scss';
+
+.wrapper {
+  background-color: $primary-green;
+}
+
+.tabContentWrapper {
+  margin-top: 2rem;
+  padding-bottom: 10rem;
+  padding-top: 2rem;
+}
+
+.topSongsPane {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: $white;
+}
+
+.panelHeader {
+  font-size: $title;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+.panelHeaderDark {
+  color: $tertiary-gray;
+}
+
+.neverStopPanel {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(93.01deg, $secondary-green 0.83%, $secondary-blue 100%);
+}
+
+.thanksPanel {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-color: $white;
+}
+
+.marketingFooter {
+  height: 8rem;
+  border-top: 1px solid $light-gray;
+  background-color: $white;
+}
+
+.appDownloadWrapper {
+  background-color: $white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  position: relative;
+}
+
+.downloadWrapper {
+  position: relative;
+}
+
+.appDownloadFooter {
+  background-color: $secondary-white;
+  position: absolute;
+  margin-top: 210px !important;
+  height: 220px;
+  width: 100%;
+}
+
+.appDownloadContent {
+  position: absolute;
+  padding-top: 4rem;
+}
+
+.artistPlaceholder {
+  position: absolute;
+  right: 1rem;
+  margin-top: -0.5rem;
+}
+
+.topPane {
+  color: $primary-blue;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: bold;
+}

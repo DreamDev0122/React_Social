@@ -1,0 +1,33 @@
+@import '$assets/scss/main.scss';
+
+.wrapper {
+  padding: 2.8rem 0;
+}
+.title {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: $title;
+  color: $secondary-green;
+}
+.panel {
+  flex: 1;
+}
+
+.menuMobile {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  height: 0;
+  width: 100%;
+  z-index: $z-index-lifter;
+  background-color: $white;
+  overflow: hidden;
+  transition: transform 0.3s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.3s cubic-bezier(0.77,0.2,0.05,1.0),
+              height 0.5s ease;
+}
+
+.menuActive {
+  height: 200px;
+  padding: 1rem 2rem;
+}

@@ -1,0 +1,11 @@
+.featurePlayBtn {
+  background-color: transparent;
+  border: none;
+  &:focus {
+    outline: 0;
+  }
+}
+
+.menuIcon {
+  width: 15px;
+}

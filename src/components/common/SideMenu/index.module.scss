@@ -1,0 +1,72 @@
+@import '$assets/scss/main.scss';
+
+.sideMenu {
+  position: relative;
+  background-color: $black;
+  height: 100%;
+  width: 100%;
+  padding: 3rem 1rem 1rem 0rem;
+  overflow: auto;
+}
+
+// TODO: move typography into scss files
+.headerTitle {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: $title;
+  color: $secondary-green;
+}
+
+.sideMenusWrapper {
+  position: relative;
+  margin-top: 4rem;
+  min-height: 100vh;
+}
+
+.sideMenuItem {
+  padding: 5px 1rem;
+  color: $secondary-gray;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  &.active, &:hover {
+    background-color: rgba(252, 252, 252, 0.1);
+    border-left: 1px solid $secondary-green;
+    color: $secondary-green;
+  }
+}
+
+.sidemenuItemTitleWrapper {
+  background-color: $black;
+}
+
+.sideMenuItemTitle {
+  color: $secondary-green;
+}
+
+.sideMenuItemIcon {
+  padding: 0 1rem;
+  height: 15px;
+  width: 45px;
+}
+
+.sideMenuSubtitle {
+  font-family: Helvetica;
+  font-weight: 700;
+  font-size: 16px;
+  color: $white;
+  margin-left: 2rem;
+}
+
+.artistMenus {
+  margin-top: 4rem;
+}
+
+.logoWrapper {
+  background-color: #000000;
+  width: 220px;
+  height: 5rem;
+  top: 0;
+  padding-top: 4rem;
+}

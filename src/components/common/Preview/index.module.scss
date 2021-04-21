@@ -1,0 +1,62 @@
+.previewWrapper {
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.temp {
+  position: relative;
+  width: 300px !important;
+  float: left;
+  margin-right: 1.5rem;
+}
+
+.previewBkgWrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.previewActionBtn {
+  background-color: transparent;
+  position: absolute;
+  z-index: 99;
+  border: none;
+  &:focus {
+    outline: none;
+  }
+}
+
+.previewActionIcon {
+  height: 50px;
+  width: 50px;
+}
+
+.title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+}
+
+.description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+}

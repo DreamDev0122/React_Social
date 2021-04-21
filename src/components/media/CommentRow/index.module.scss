@@ -1,0 +1,15 @@
+@import '$assets/scss/main.scss';
+
+.text {
+  font-size: 14px;
+  color: $secondary-black;
+}
+
+.date {
+  font-size: 10px;
+  color: $tertiary-gray;
+}
+
+.row {
+  margin: 1rem 0;
+}

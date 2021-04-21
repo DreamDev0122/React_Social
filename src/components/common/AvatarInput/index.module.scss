@@ -1,0 +1,38 @@
+@import '$assets/scss/main.scss';
+
+.avatarInputWrapper {
+  height: 100%;
+  width: 100%;
+  border: 2px solid $secondary-gray;
+  position: relative;
+}
+
+.avatarInputWrapperImage {
+  height: 100%;
+  width: 100%;
+}
+
+.avatarBtn {
+  position: absolute;
+  bottom: 5px;
+  border: 0;
+  background-color: $light-gray;
+  border-radius: 9px;
+  height: 40px;
+  padding: 0 10px;
+  &:focus {
+    outline: none;
+  }
+}
+
+.avatarBtnIcon {
+  height: 30px;
+  padding: 0 5px;
+}
+
+.dragTitle {
+  font-size: 24px;
+  font-family: Roboto;
+  color: $tertiary-gray;
+  font-weight: bold;
+}

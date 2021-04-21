@@ -1,0 +1,40 @@
+@import '$assets/scss/main.scss';
+
+.panelContainer {
+  min-height: 100vh;
+  background-color: $secondary-white;
+  padding-top: 100px;
+  padding-bottom: 5rem;
+}
+
+.inputFormWrapper {
+  padding: 1rem;
+  border: 1px solid $primary-gray;
+  margin: 1rem 0;
+}
+
+.inputContainer {
+  background-color: $white;
+  padding: 1rem;
+}
+
+.title {
+  font-size: 1.2em;
+  color: $black;
+}
+
+.paneTitle {
+  font-size: 1.8rem;
+  color: $secondary-gray;
+  font-weight: bold;
+}
+
+.cover {
+  height: 200px;
+  margin-top: 1.5rem;
+}
+
+.spinnerLg {
+  width: 2rem;
+  height: 2rem;
+}

@@ -1,0 +1,52 @@
+@import '$assets/scss/main.scss';
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  input[type='range'] {
+    width: 100%;
+  }
+
+  /*Chrome*/
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    input[type='range'] {
+      overflow: hidden;
+      -webkit-appearance: none;
+      background-color: $secondary-gray;
+    }
+    input[type='range']::-webkit-slider-runnable-track {
+      height: 5px;
+      -webkit-appearance: none;
+      color: $secondary-light-gray;
+      margin-top: -1px;
+    }
+    input[type='range']::-webkit-slider-thumb {
+      width: 1px;
+      -webkit-appearance: none;
+      height: 5px;
+      cursor: ew-resize;
+      background: $secondary-gray;
+      color: $secondary-light-gray;
+    }
+  }
+
+  /** FF*/
+  input[type="range"]::-moz-range-progress {
+    background-color: $secondary-light-gray;
+  }
+
+  input[type="range"]::-moz-range-track {
+    background-color: $secondary-gray;
+  }
+
+  /* IE*/
+  input[type="range"]::-ms-fill-lower {
+    background-color: $secondary-light-gray;
+  }
+
+  input[type="range"]::-ms-fill-upper {
+    background-color: $secondary-gray;
+  }
+}
+
+

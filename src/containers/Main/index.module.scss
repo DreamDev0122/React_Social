@@ -1,0 +1,38 @@
+@import '$assets/scss/main.scss';
+@import '$assets/scss/general.scss';
+
+.content {
+  width: 100%;
+  height: 100%;
+  background-color: $primary-green;
+  padding-top: 1rem;
+  overflow-x: hidden;
+}
+
+.homeFooter {
+  position: fixed;
+  z-index: $z-index-last;
+  width: 100%;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.sideMenuWrapper {
+  width: 220px;
+}
+
+.sideMenuMobile {
+  position: absolute;
+  top: 70px;
+  height: 0;
+  width: 100%;
+  z-index: $z-index-last + 10;
+  overflow: hidden;
+  transition: transform 0.3s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.3s cubic-bezier(0.77,0.2,0.05,1.0),
+              height 0.5s ease;
+}
+
+.sideMenuActive {
+  height: 100%;
+}

@@ -1,0 +1,24 @@
+@import '$assets/scss/main.scss';
+
+.wrapper {
+  max-height: 310px;
+  overflow-x: scroll;
+  background: $white;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.header {
+  background-color: $primary-gray;
+  padding: 0.2rem 0.2rem 0 0.2rem;
+  border-radius: 2px;
+}
+
+.optSecondary {
+  color: $primary-red;
+}
+
+.btn {
+  color: $secondary-green;
+  height: 40px;
+}

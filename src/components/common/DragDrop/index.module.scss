@@ -1,0 +1,42 @@
+@import '$assets/scss/main.scss';
+
+.dragDropWrapper {
+  height: 160px;
+  width: 100%;
+  color: $black;
+  background-color: $white;
+  padding: 5px;
+}
+
+.dragActive {
+  background-color: $secondary-white;
+  border: 1px dashed $tertiary-gray;
+}
+
+.dragDropInner {
+  width: 100%;
+  height: 100%;
+}
+
+.dragTitle {
+  font-size: 24px;
+  font-family: Roboto;
+  color: $tertiary-gray;
+  font-weight: bold;
+}
+
+.btnWrapper {
+  background-color: $primary-blue;
+  padding: 2rem;
+  height: 40px;
+  border-radius: 42px;
+  color: $white;
+}
+
+.fileBtnWrapper {
+  background: rgba(20, 20, 20, 0.22);
+  border-radius: 50%;
+  margin: 0 5px;
+  height: 30px;
+  padding: 8px;
+}

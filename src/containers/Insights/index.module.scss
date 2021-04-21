@@ -1,0 +1,50 @@
+@import '$assets/scss/main.scss';
+
+.container {
+  position: relative;
+  background-color: $primary-light-gray;
+  min-height: 100%;
+  margin-top: 1rem !important;
+  padding: 1rem 2rem 10rem 2rem;
+}
+
+.wrapper {
+}
+
+.tabsWrapper {
+  margin-top: 9rem;
+  margin-bottom: 2rem;
+}
+
+.bubbleWrapper {
+  margin-right: 3rem;
+}
+
+.bubble {
+  height: 114px;
+  width: 114px;
+  border-radius: 50%;
+  background-color: $secondary-green;
+  color: $white;
+  font-size: 3rem;
+}
+
+.bubbleTitle {
+  color: $tertiary-black;
+  font-size: 1.5rem;
+}
+
+.titleBorder {
+  background-color: $secondary-green;
+  height: 8px;
+  width: 4rem;
+}
+
+.title {
+  color: $tertiary-black;
+  font-size: 4rem;
+}
+
+.dataWrapper {
+  margin-top: 5rem;
+}

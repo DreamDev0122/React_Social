@@ -1,0 +1,20 @@
+@import '$assets/scss/main.scss';
+
+.wrapper {
+  position: relative;
+  background-color: $primary-light-gray;
+  min-height: 100%;
+  margin-top: 5rem !important;
+  padding: 2rem 2rem 10rem 2rem;
+}
+
+.title {
+  color: $secondary-gray;
+  font-size: 20px;
+  font-family: Roboto;
+  margin: 2rem 0;
+}
+
+.footerWrapper {
+  margin: 4rem 0;
+}

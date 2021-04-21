@@ -1,0 +1,24 @@
+@import '$assets/scss/main.scss';
+
+.menuBtn {
+  background: transparent;
+  border: 0;
+  justify-content: center;
+  margin: 0 .8rem;
+  &:focus {
+    outline: none;
+  }
+}
+
+.menuText {
+  font-family: Poppins;
+  color: $secondary-green;
+  font-size: $normal-text;
+}
+
+.activeDot {
+  border-radius: 5px;
+  height: 5px;
+  width: 5px;
+  background-color: $secondary-green;
+}

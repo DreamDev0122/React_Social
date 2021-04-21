@@ -1,0 +1,57 @@
+@import '$assets/scss/main.scss';
+
+.appHeaderWrapper {
+  position: absolute;
+  top: 0;
+  height: 70px;
+  padding: 0.5rem 2.5rem;
+  width: calc(100% - 220px);
+  background-color: $primary-green;
+  z-index: $z-index-lifter;
+}
+
+.mobile {
+  width: 100%;
+}
+
+.searchInactive {
+  background-color: transparent;
+}
+
+.appHeaderAvatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.appHeaderName {
+  color: $white;
+  padding: 0 1rem;
+  span {
+    padding: 0 0.5rem;
+    width: 14ch;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.appHeaderInput {
+  background-color: $secondary-black;
+  border-color: $secondary-black;
+  input {
+    color: $white;
+  }
+}
+
+.optSecondary {
+  color: $secondary-green;
+  &:focus, &:active, &:hover {
+    color: $secondary-green;
+  }
+}
+
+.menuWrapper {
+  margin-top: 1rem;
+}
+

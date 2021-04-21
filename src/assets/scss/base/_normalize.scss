@@ -1,0 +1,17 @@
+html,
+body,
+p {
+  font-family: Poppins;
+  font-size: $normal-text;
+  color: $tertiary-gray;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.panel-container {
+  min-height: 100vh;
+}

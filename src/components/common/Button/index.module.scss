@@ -1,0 +1,80 @@
+@import '$assets/scss/main.scss';
+
+.customBtn {
+  background-color: transparent;
+  border: 0;
+  img {
+    min-height: 15px;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.mkBtn {
+  height: 40px;
+  border-radius: 42px;
+  min-width: 140px;
+  border: 0;
+  background-color: $secondary-green;
+  border: 1px solid $secondary-green;
+  color: $white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 0rem 1rem;
+  &:focus {
+    outline: none;
+  }
+}
+
+.mkBtnSquare {
+  border-radius: 5px;
+}
+
+.mkBtnStretch {
+  width: 100%;
+}
+
+.noWidth {
+  width: auto;
+}
+
+.noBorder {
+  border: none;
+  min-width: 0;
+}
+
+.mkBtnTransparent {
+  background-color: transparent;
+}
+
+.mkBtnBorderWhite {
+  border: 1px solid $white;
+}
+
+.mkBtnPrimary {
+  color: $secondary-green;
+}
+
+.mkBtnSecondary {
+  background-color: $tertiary-blue;
+  border: none;
+}
+
+.mkBtnSecondaryTransparent {
+  color: $tertiary-blue;
+}
+
+.borderSecondary {
+  color: $white;
+  border-color: $white;
+}
+
+.borderPrimary {
+  color: $secondary-green;
+  border-color: $secondary-green;
+}
+
+.btnIcon {
+}

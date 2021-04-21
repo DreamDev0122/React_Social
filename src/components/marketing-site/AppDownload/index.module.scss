@@ -1,0 +1,22 @@
+@import '$assets/scss/main.scss';
+
+.phoneMkImage {
+  height: 400px;
+  margin-right: 4rem;
+}
+
+.appDownloadHeader {
+  color: $primary-blue;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+.storeIcon {
+  opacity: 1;
+}
+
+.innerWrapper {
+  padding: 2rem 0 0 4rem;
+  margin-top: 2rem;
+}
